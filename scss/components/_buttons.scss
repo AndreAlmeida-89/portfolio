@@ -1,5 +1,5 @@
 @use '../custom' as *;
-@use './mixins' as *;
+@use '../components/mixins' as *;
 
 .btn-rounded{
     @include media-breakpoint-down(sm){
