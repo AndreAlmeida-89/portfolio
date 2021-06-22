@@ -1,0 +1,71 @@
+//WHITE AND GRAY COLORS
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+//APPLE COLORS
+$blue: #007aff;
+$indigo: #5856d6;
+$red: #ff3b30;
+$orange: #ff9500;
+$yellow: #ffcc00;
+$green: #34c759;
+$teal: #5ac8fa;
+$cyan: #0dcaf0;
+$purple: #af52de;
+$pink: #ff2f55;
+
+$blue-dark: #0a84ff;
+$indigo-dark: #5856d6;
+$red-dark: #ff453a;
+$orange-dark: #ff9f0a;
+$yellow-dark: #ffd60a;
+$green-dark: #32d74b;
+$teal-dark: #64d2ff;
+$cyan-dark: #0dcaf0;
+$purple-dark: #bf5af2;
+$pink-dark: #ff375f;
+
+//PRIMARY COLORS
+$primary: $blue;
+$secondary: $teal;
+
+//ACCORDION OVERRIDES
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+$accordion-icon-width: 1.875rem;
+
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M9.49111 18.7422C14.4745 18.7422 18.5878 14.6289 18.5878 9.6543C18.5878 4.67969 14.4657 0.566406 9.48232 0.566406C4.50772 0.566406 0.403223 4.67969 0.403223 9.6543C0.403223 14.6289 4.5165 18.7422 9.49111 18.7422ZM9.49111 16.9316C5.45693 16.9316 2.23135 13.6885 2.23135 9.6543C2.23135 5.62012 5.45693 2.38574 9.48232 2.38574C13.5165 2.38574 16.7597 5.62012 16.7685 9.6543C16.7772 13.6885 13.5253 16.9316 9.49111 16.9316ZM6.24795 10.4893H8.65615V12.9062C8.65615 13.3896 8.99893 13.7324 9.47354 13.7324C9.96572 13.7324 10.3173 13.3896 10.3173 12.9062V10.4893H12.7343C13.2177 10.4893 13.5692 10.1465 13.5692 9.66309C13.5692 9.17969 13.2265 8.82812 12.7343 8.82812H10.3173V6.41113C10.3173 5.91895 9.96572 5.57617 9.47354 5.57617C8.99893 5.57617 8.65615 5.91895 8.65615 6.41113V8.82812H6.24795C5.74697 8.82812 5.4042 9.17969 5.4042 9.66309C5.4042 10.1465 5.75576 10.4893 6.24795 10.4893Z'/></svg>");
+
+
+
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M9.49111 18.7422C14.4745 18.7422 18.5878 14.6289 18.5878 9.6543C18.5878 4.67969 14.4657 0.566406 9.48232 0.566406C4.50772 0.566406 0.403223 4.67969 0.403223 9.6543C0.403223 14.6289 4.5165 18.7422 9.49111 18.7422ZM9.49111 16.9316C5.45693 16.9316 2.23135 13.6885 2.23135 9.6543C2.23135 5.62012 5.45693 2.38574 9.48232 2.38574C13.5165 2.38574 16.7597 5.62012 16.7685 9.6543C16.7772 13.6885 13.5253 16.9316 9.49111 16.9316ZM6.16006 10.498H12.8134C13.3407 10.498 13.7187 10.1904 13.7187 9.68066C13.7187 9.16211 13.3583 8.8457 12.8134 8.8457H6.16006C5.62393 8.8457 5.25479 9.16211 5.25479 9.68066C5.25479 10.1904 5.63272 10.498 6.16006 10.498Z'/></svg>");
+
+
+//FONT
+
+@font-face {
+    font-family: san-francisco; 
+    src: url("/assets/sf-fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: san-francisco-mono; 
+    src: url("/assets/sf-fonts/SFMonoRegular.otf") format("opentype");
+}
+
+$font-family-sans-serif:  -apple-system, san-francisco, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, san-francisco-mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+
+//Import Bootsrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

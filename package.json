@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio",
+  "version": "0.0.1",
+  "description": "Portfolio de André Felipe Almeida",
+  "keywords": "Portfolio iOS Developer",
+  "license": "",
+  "author": "André Felipe Almeida",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch scss:css"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
