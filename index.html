@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
@@ -49,13 +50,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#">Formação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
+              <a class="nav-link" href="#">Sobre mim</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Portfolio</a>
@@ -80,12 +81,13 @@
     <section id="home" class="intro-section">
       <div class="container">
         <div class="row align-items-center text-white">
-          <div class="col-md intros">
+          <!--INTRO CONTENT-->
+          <div class="col-md-6 intros text-start">
             <h1 class="display-2">
               <span class="display-2--intro sf-bold"> Olá, mundo! </span>
               <span class="display-2--description lh-base">
                 Meu nome é André Almeida. <br />
-                Um Desenvolvendor front-end e iOS.
+                Um desenvolvendor front-end e iOS.
               </span>
             </h1>
 
@@ -96,16 +98,49 @@
               </span>
             </button>
           </div>
-          <div class="col-md intros"></div>
+
+          <!--VIDEO CONTENT-->
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img
+                src="/assets/svgs/code.hand.svg"
+                alt="video illustration"
+                class="img-fluid"
+              />
+              <a href="#" class="glightbox">
+                <span>
+                  <i class="fas fa-play-circle"></i>
+                </span>
+                <span
+                  class="border-animation border-animation--border-1"
+                ></span>
+                <span
+                  class="border-animation border-animation--border-2"
+                ></span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+      <img src="/assets/svgs/wave.svg" alt="wave" />
     </section>
 
     <!-- Scripts -->
+  
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
     <script src="assets/bootstrap-5.0.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/vendor/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        href: "https://www.youtube.com/watch?v=iJKCj8uAHz8&t=1916s",
+        type: "video",
+        source: "youtube",
+        width: 900,
+      });
+    </script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>

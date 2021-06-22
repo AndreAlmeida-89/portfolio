@@ -20,6 +20,8 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "autoprefixer": "^10.2.6",
     "bootstrap": "^5.0.1",
+    "glightbox": "^3.0.9",
+    "js": "^0.1.0",
     "postcss-cli": "^8.3.1"
   }
 }
