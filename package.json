@@ -6,11 +6,12 @@
   "license": "",
   "author": "André Felipe Almeida",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "sass --watch scss:css"
+    "start": "parcel ./index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./index.html --no-minify --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "devDependencies": {
     "color-string": "^1.5.5",
@@ -20,6 +21,7 @@
     "normalize-url": "^6.1.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.35.1",
+    "shx": "^0.3.3",
     "ws": "^7.5.0"
   },
   "dependencies": {
