@@ -31,6 +31,8 @@
         }
     }
 
+    transition: all .2s ease-in-out;
+
     &:hover{
         @include gradient;
         color: $white;
