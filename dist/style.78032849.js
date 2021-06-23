@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Projects\\portfolio\\assets\\sf-fonts\\SF-Pro-Text-Regular.otf":[["SF-Pro-Text-Regular.c1905d52.otf","assets/sf-fonts/SF-Pro-Text-Regular.otf"],"assets/sf-fonts/SF-Pro-Text-Regular.otf"],"C:\\Projects\\portfolio\\assets\\sf-fonts\\SFMonoRegular.otf":[["SFMonoRegular.eae39ce8.otf","assets/sf-fonts/SFMonoRegular.otf"],"assets/sf-fonts/SFMonoRegular.otf"],"C:\\Projects\\portfolio\\assets\\sf-fonts\\SF-Pro-Display-Bold.otf":[["SF-Pro-Display-Bold.dde8e8e3.otf","assets/sf-fonts/SF-Pro-Display-Bold.otf"],"assets/sf-fonts/SF-Pro-Display-Bold.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\assets\\sf-fonts\\SF-Pro-Text-Regular.otf":[["SF-Pro-Text-Regular.c1905d52.otf","assets/sf-fonts/SF-Pro-Text-Regular.otf"],"assets/sf-fonts/SF-Pro-Text-Regular.otf"],"./..\\assets\\sf-fonts\\SFMonoRegular.otf":[["SFMonoRegular.eae39ce8.otf","assets/sf-fonts/SFMonoRegular.otf"],"assets/sf-fonts/SFMonoRegular.otf"],"C:\\Projects\\portfolio\\assets\\sf-fonts\\SF-Pro-Display-Bold.otf":[["SF-Pro-Display-Bold.dde8e8e3.otf","assets/sf-fonts/SF-Pro-Display-Bold.otf"],"assets/sf-fonts/SF-Pro-Display-Bold.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59395" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51638" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

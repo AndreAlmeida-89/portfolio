@@ -55,12 +55,12 @@ $accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3
 
 @font-face {
     font-family: san-francisco; 
-    src: url("/assets/sf-fonts/SF-Pro-Text-Regular.otf") format("opentype");
+    src: url("../assets/sf-fonts/SF-Pro-Text-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: san-francisco-mono; 
-    src: url("/assets/sf-fonts/SFMonoRegular.otf") format("opentype");
+    src: url("../assets/sf-fonts/SFMonoRegular.otf") format("opentype");
 }
 
 $font-family-sans-serif:  -apple-system, san-francisco, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
