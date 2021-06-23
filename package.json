@@ -13,8 +13,14 @@
     "compile:sass": "sass --watch scss:css"
   },
   "devDependencies": {
+    "color-string": "^1.5.5",
+    "glob-parent": "^6.0.0",
+    "is-svg": "^4.3.1",
+    "node-forge": "^0.10.0",
+    "normalize-url": "^6.1.0",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.35.1"
+    "sass": "^1.35.1",
+    "ws": "^7.5.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
